@@ -74,9 +74,9 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'ドキュメント',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'ブログ', position: 'left'},
           {
             href: 'https://github.com/Self-tought-Developer-s-Hub/dokugaku-engineer',
             label: 'GitHub',
