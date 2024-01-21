@@ -64,9 +64,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'IFX Coding Study Group',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'IFX Coding Study Group Logo',
           src: 'img/logo.svg',
         },
         items: [
