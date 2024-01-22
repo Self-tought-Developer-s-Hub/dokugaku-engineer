@@ -17,3 +17,47 @@ Docker Composeは、複数のコンテナを管理するためのDockerのツー
 5. **開発とテストの自動化**：Docker Composeを使って、開発、テスト、CI/CDパイプラインでのアプリケーションの環境を自動化し、標準化することができます。
 
 Docker Composeは、特に開発とテストのフェーズで非常に有用であり、複雑なアプリケーションの管理を簡単にするために広く使われています。
+
+### よく使うコマンド
+Docker Composeを使用する際によく使うコマンドとその使い方を説明します。これらのコマンドは、`docker-compose.yml` ファイルが存在するディレクトリで実行されることが一般的です。
+
+### 1. `docker-compose up`
+- **用途**：`docker-compose.yml` ファイルに定義されたサービス（コンテナ）を起動します。
+- **使い方**：
+  - `docker-compose up`：バックグラウンドで実行する場合は `-d` フラグを使用します。
+  - `docker-compose up -d`：サービスをバックグラウンドで起動します。
+
+### 2. `docker-compose down`
+- **用途**：起動中のサービスを停止し、関連するネットワークやリソースを削除します。
+- **使い方**：`docker-compose down`
+
+### 3. `docker-compose ps`
+- **用途**：現在起動中のコンテナの状態を表示します。
+- **使い方**：`docker-compose ps`
+
+### 4. `docker-compose logs`
+- **用途**：サービスのログを表示します。
+- **使い方**：
+  - `docker-compose logs`：すべてのサービスのログを表示します。
+  - `docker-compose logs [サービス名]`：特定のサービスのログを表示します。
+
+### 5. `docker-compose restart`
+- **用途**：サービス（コンテナ）を再起動します。
+- **使い方**：`docker-compose restart`
+
+### 6. `docker-compose build`
+- **用途**：Dockerfileに基づいてサービスのイメージをビルドします。
+- **使い方**：`docker-compose build`
+
+### 7. `docker-compose exec`
+- **用途**：実行中のコンテナ内でコマンドを実行します。
+- **使い方**：`docker-compose exec [サービス名] [コマンド]`
+  - 例：`docker-compose exec web sh`（`web`サービスのコンテナでシェルを開く）
+
+### 8. `docker-compose stop` と `docker-compose start`
+- **用途**：サービスを停止（`stop`）または開始（`start`）します。
+- **使い方**：
+  - `docker-compose stop`：すべてのサービスを停止します。
+  - `docker-compose start`：停止中のサービスを開始します。
+
+これらのコマンドを適切に使用することで、Docker Composeを使ったマルチコンテナ環境の管理が容易になります。
