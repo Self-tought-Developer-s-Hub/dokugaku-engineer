@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Coding Study Group',
+  title: 'IFX Coding Study Group',
   tagline: '無料で学べるプログラミング勉強会 presented by InterfaceX',
   favicon: 'img/favicon.ico',
 
@@ -127,7 +127,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} IFX Coding Study Group, powered by InterfaceX LLC. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
