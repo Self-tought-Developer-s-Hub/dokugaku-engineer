@@ -24,12 +24,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: '個別チュータリングサービス',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        独学ではわからないことを個別チュータリングで解決しましょう！まずはお気軽に無料相談にお申し込みください。
       </>
     ),
   },
