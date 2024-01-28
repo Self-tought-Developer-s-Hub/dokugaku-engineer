@@ -11,3 +11,13 @@
 ## 技術スタック
 - Docusaurus 2.0
 https://docusaurus.io/
+
+## コントリビュートについて
+- 常時歓迎です
+
+## 開発方法
+
+```bash
+$ npm install
+$ npm run start #HMR開発サーバー起動
+``` 
